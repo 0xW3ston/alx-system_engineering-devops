@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+""" Defines a function that queries the Reddit API and prints the
+    first 10 hot posts listed for a given subreddit. Prints None if an
+    invalid subreddit is given
 """
-this doc for module
-"""
+
 import requests
 
 headers = {"User-Agent": "MyCustomUserAgent/1.0"}
